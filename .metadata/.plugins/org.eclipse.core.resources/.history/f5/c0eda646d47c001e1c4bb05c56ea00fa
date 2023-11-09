@@ -1,0 +1,5 @@
+package com.WelcomeAPI.feign;
+
+public class GreetFeignClient {
+
+}

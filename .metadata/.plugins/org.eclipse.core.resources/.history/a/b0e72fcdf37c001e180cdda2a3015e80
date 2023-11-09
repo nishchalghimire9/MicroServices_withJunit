@@ -1,0 +1,13 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: CLOUD-API-GATEWAY 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: welcome-api

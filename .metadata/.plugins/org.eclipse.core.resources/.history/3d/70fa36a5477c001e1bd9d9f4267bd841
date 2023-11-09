@@ -1,0 +1,13 @@
+package com.greetAPI_Restcontroller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetRestController {
+	
+	public String getGreeting() {
+		
+		return "Goodevening";
+	}
+
+}

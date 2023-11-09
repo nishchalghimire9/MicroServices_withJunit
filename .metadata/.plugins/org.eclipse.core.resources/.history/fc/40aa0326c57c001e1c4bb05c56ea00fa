@@ -1,0 +1,14 @@
+package com.WelcomeAPI.Rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class WelcomeController {
+	
+	@GetMapping("/welcome")
+	public String getWelcomeMsg() {
+		return "Welcome Nishchal Ghimire to our community";
+		
+		
+	}
+
+}

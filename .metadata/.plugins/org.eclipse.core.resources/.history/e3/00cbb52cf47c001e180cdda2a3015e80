@@ -1,0 +1,21 @@
+'-':
+- 'id: greet-routing '
+- Path=/greet
+- 'id: welcome-routing '
+- Path=/welcome
+application: ''
+cloud: ''
+discovery:
+  locator: ''
+enabled: true
+gateway: ''
+lowerCaseServiceId: true
+name: CLOUD-API-GATEWAY
+port: 2222
+predicates: ''
+routes: ''
+server: ''
+spring: ''
+uri:
+- lb://GREET-API
+- lb://WELCOME-API

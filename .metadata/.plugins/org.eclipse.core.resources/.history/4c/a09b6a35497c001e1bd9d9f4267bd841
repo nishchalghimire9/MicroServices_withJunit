@@ -1,0 +1,6 @@
+server.port= 8081
+spring.application.name: GREET-API
+spring.boot.admin.client.url=http://localhost:1111/  
+# this above tell that it is connection to the Admin Server.
+management.endpoints.web.exposure.include: '*' 
+#this is telling that all actuator end point is exposed means we can see all.   actuator is endpoint in a web service
