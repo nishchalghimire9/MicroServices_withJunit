@@ -1,5 +1,0 @@
-server.port=2222
-#this is application name.
-spring.application.name= CLOUD-API-GATEWAY 
-spring.cloud.gateway.discovery.locator.enabled=true
-spring.cloud.gateway.discovery.locator.lower-case-service-id = true

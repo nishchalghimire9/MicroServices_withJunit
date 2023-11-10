@@ -1,5 +1,0 @@
-package com.WelcomeAPI.Rest;
-
-public class WelcomeController {
-
-}

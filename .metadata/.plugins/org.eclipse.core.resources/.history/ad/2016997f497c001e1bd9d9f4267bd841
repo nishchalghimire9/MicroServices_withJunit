@@ -1,6 +1,0 @@
-server.port= 8081
-spring.application.name: GREET-API
-spring.boot.admin.client.url=http://localhost:1111/  
-# this above line is used to connect  GreetApi to the Admin Server.
-management.endpoints.web.exposure.include: '*' 
-#this is telling that all actuator end point is exposed means we can see all.   actuator is endpoint in a web service

@@ -1,5 +1,0 @@
-package com.SpringSecurity.UserDetailsService;
-
-public class MyUserDetailsService {
-
-}

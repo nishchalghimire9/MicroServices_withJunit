@@ -1,4 +1,0 @@
-server.port= 8081
-spring.application.name: GREET-API
-management.endpoints.web.exposure.include: '*' 
-#this is telling that all actuator end point is exposed means we can see all.  
