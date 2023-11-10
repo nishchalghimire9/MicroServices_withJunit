@@ -14,7 +14,7 @@ public class CustomerController {
 	@Autowired
 	private JobLauncher jobLauncher;
 	@Autowired
-	private Job job;  // this one is auto wired from bean which we have create in Batch config class.
+	private Job job;  // this one is autowired from bean which we have create in Batch config class.
 	
 	@GetMapping("/import")
 	public void loadData() throws Exception {

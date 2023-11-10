@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Nishchal\eclipse-workspace\CompleteMicroService\AdminServer"/>
 			<item value="C:\Users\Nishchal\eclipse-workspace\CompleteMicroService\SpringBoot_Security_JWT"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -30,10 +31,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.unitTesting"/>
 		</list>
 		<list key="groupId">
+			<item value="com.unitTesting"/>
 		</list>
 		<list key="artifactId">
+			<item value="UnitTesting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
